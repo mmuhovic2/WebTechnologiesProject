@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(180deg,#b5c7dd,#e0e8ef);
+    height: 1000px;
+}
+.glavni{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+fieldset{
+    border-color: #7092bb;
+    color: #7092bb;
+
+}
+fieldset  h3{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    
+    
+}
+fieldset  p{
+    text-align:center;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prethodna,.sljedeca{
+    width: 15%;
+    height: 190px;
+    border-radius: 35px;
+    margin-left: 5px;
+    margin-right:5px;
+}
+.trenutna{
+    width: 17%;
+    height: 240px;
+    border-radius: 16px;
+}
+legend{
+    margin:auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .glavni{
+        flex-direction: column;
+        margin: 40px auto 20px auto;
+    }
+    .trenutna, .sljedeca{
+        margin:10px auto 20px auto;
+        width:30%;
+        
+    }
+    .prethodna{
+        display: none;
+    }
+
+
+}

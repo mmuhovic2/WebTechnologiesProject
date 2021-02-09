@@ -1,0 +1,56 @@
+.navigacija {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.navigacija li {
+    float: left;
+  }
+  
+.navigacija  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navigacija  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.navigacija  .active {
+    background-color: #03befc;
+  }
+
+  @media (max-width: 600px) {
+    .navigacija{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: #333;
+    }
+    .navigacija li{
+      float:none;
+    }
+   .navigacija li a {
+      display: block;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+  .navigacija  li a.active {
+      background-color: #03befc;
+      color: white;
+    }
+    
+  .navigacija  li a:hover:not(.active) {
+    background-color: #111;
+      color: white;
+    }
+  }

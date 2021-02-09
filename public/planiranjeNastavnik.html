@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Planiranje</title>
+    <link rel="stylesheet" href="/css/navigacija.css">
+    <link rel="stylesheet" href="/css/planiranjeNastavnik.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <ul class="navigacija">
+        <li><a href="/aktivnost.html">Aktivnost</a></li>
+        <li><a href="/raspored.html">Raspored</a></li>
+        <li><a href="/podaciStudent.html">Podaci student</a></li>
+        <li><a class="active" href="/planiranjeNastavnik.html">Planiranje nastavnik</a></li>
+    </ul>
+
+    <form>
+        <label for="nazivPredmeta">Naziv predmeta</label>
+        <input id="nazivPredmeta" type="text">
+        
+        <label for="tip">Tip</label>
+        <select name="tip" id="tip">
+            <option value="predavanje">Predavanje</option>
+            <option value="vjezbe">Vježbe</option>
+        </select>
+        
+        <label for="pocetak">Vrijeme početka</label>
+        <input id="pocetak" type="time">
+        
+        <label for="kraj">Vrijeme kraja</label>
+        <input id="kraj" type="time">
+        
+        <label for="dan">Dan</label>
+        <select name="dan" id="dan">
+            <option value="ponedjeljak">Ponedjeljak</option>
+            <option value="utorak">Utorak</option>
+            <option value="srijeda">Srijeda</option>
+            <option value="cetvrtak">Četvrtak</option>
+            <option value="petak">Petak</option>
+        </select>
+        
+        <button>Dodaj</button>
+    </form>
+</body>
+</html>

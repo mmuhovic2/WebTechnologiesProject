@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Unos rasporeda</title>
+    <link rel="stylesheet" href="/css/unosRasporeda.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body onload="ucitaj()">
+    
+    <form id="forma">
+        <label for="nazivPredmeta">Naziv predmeta</label>
+        <input id="nazivPredmeta" type="text" required>
+        
+        <label for="tip">Tip</label>
+        <select name="tip" id="tip">
+            <option value="Predavanje">Predavanje</option>
+            <option value="Vježbe">Vježbe</option>
+        </select>
+        
+        <label for="pocetak">Vrijeme početka</label>
+        <input id="pocetak" type="number" required>
+        
+        <label for="kraj">Vrijeme kraja</label>
+        <input id="kraj" type="number" required>
+        
+        <label for="dan">Dan</label>
+        <select name="dan" id="dan">
+            <option value="Ponedjeljak">Ponedjeljak</option>
+            <option value="Utorak">Utorak</option>
+            <option value="Srijeda">Srijeda</option>
+            <option value="Četvrtak">Četvrtak</option>
+            <option value="Petak">Petak</option>
+        </select>
+        
+        <button id="dugme" onclick="posalji();event.preventDefault();">Dodaj</button>
+    </form>
+    <script src="unosAjax.js"></script>
+</body>
+</html>

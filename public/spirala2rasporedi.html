@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spirala 2 rasporedi</title>
+    <link rel="stylesheet" href="/css/raspored.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body onload="f()" >
+ 
+
+<div id="divtabela1"></div>
+<h3>Provjeri izbacivanje grešaka:</h3>
+<p>Vrijeme početka je veće od vremena kraja. </p>
+<button onclick="testVrijeme1()">Provjeri</button>
+
+<p>Uneseno vrijeme nema odgovarajući format. </p>
+<button onclick="testVrijeme2()">Provjeri</button>
+
+<p>Aktivnost se poklapa sa jednom od postojećih akivnosti. </p>
+<button onclick="testVrijeme3()">Provjeri</button>
+
+
+<div id="divtabela2"></div>
+<h3>Provjeri izbacivanje grešaka:</h3>
+<p>Nepostojeći dan.</p>
+<button onclick="testVrijeme4()">Provjeri</button>
+
+<script  src="iscrtaj.js"></script>
+<script  src="spirala2rasporedi.js"></script>
+</body>
+</html>

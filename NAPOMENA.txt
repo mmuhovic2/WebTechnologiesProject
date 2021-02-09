@@ -1,0 +1,1 @@
+Testovi se pokreću sa: mocha test.js

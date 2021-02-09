@@ -1,0 +1,19 @@
+h1{
+    margin:auto;
+}
+#tekst{
+    margin: auto;
+    display:-webkit-flex;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+#grupe{
+    margin:10px auto 10px auto;
+}
+button{
+    margin:auto;
+    height: 30px;
+    width: 100px;
+}
