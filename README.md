@@ -1,2 +1,2 @@
-# WebTechnologiesProject
-Simple CRUD app using Node.js and Sequelize
+# Schedule Planning
+Web application built using Node.js and Sequelize
